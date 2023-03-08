@@ -1,0 +1,113 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Resume</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Experienced full stack web developer, designer, and college professor with expertise in Python, TypeScript, 
+    C++, and Kotlin. Skilled in designing and developing responsive web applications 
+    using React, Next.js, and Astro. Proficient in cloud technologies such as AWS, Firebase, Google Cloud and
+    developing mobile applications on the Android platform.
+    With over 20 years of experience working collaboratively with cross-functional teams and providing technical 
+    leadership in fast-paced environments. Passionate about exploring emerging technologies 
+    and contributing to open-source projects, with experience teaching and mentoring junior 
+    developers, designers, and students.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Master in Fine Arts in Interactive Design and Game Development"
+      subtitle="Savannah College of Art and Design, Savannah, GA"
+    />
+    <TimeLineElement
+      title="B.A. in Religous Studies"
+      subtitle="Messiah College, Grantham, PA"
+    />
+  </div>
+
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="ASSISTANT PROFESSOR at Northampton Community College"
+      subtitle="August 2013 to Present - Bethlehem, PA"
+      desc="As a tenured faculty member, instructed over 1,400 first and second-year communication design and computer science students, fostering a passion for web development and computer science. Increased student retention in the web development program by 20%, implementing innovative teaching methods and personalized student support strategies. Developed and led the first Japanese study-abroad programs in collaboration with Akashi Technical College in Japan, providing a unique cultural and educational experience for students. Collaborated with colleagues on research projects and academic publications, contributing to the advancement of the field. Actively participated in departmental committees and student organizations, mentoring junior faculty and advising student groups."
+    />
+    <TimeLineElement
+      title="CTO at Menu Genie, Inc"
+      subtitle="January 2012 to April 2013 - Allentown, PA"
+      desc="Led the design, architecture, and development of a highly successful online ordering platform for restaurants, using Amazon Web Services, Stripe, Twilio, and Ruby on Rails. Spearheaded the integration of multiple third-party services, resulting in streamlined customer interactions and automated payment processing. Designed and implemented robust security measures and monitoring systems, ensuring the platform's high availability and reliability. Collaborated with cross-functional teams to gather requirements, develop features, and troubleshoot issues. Contributed to the development of coding standards and best practices, improving team efficiency and delivering a high-quality product on time and under budget."
+    />
+    <TimeLineElement
+      title="CO-FOUNDER at Lehigh Valley Tech, LLC a 501(c)(3)"
+      subtitle="June 2010 to January 2012 - Allentown, PA"
+      desc="As the co-founder and co-manager of a non-profit organization with a mission to promote entrepreneurship, education, and networking for over 500 members, I led the development and execution of multiple successful Startup Weekends and Hackathons. Established and maintained strategic partnerships with stakeholders and sponsors, securing funding and resources for the organization's growth and sustainability. Designed and implemented marketing campaigns and outreach strategies, resulting in increased visibility and engagement among the local community. Mentored and advised aspiring entrepreneurs and students, contributing to the development of the next generation of leaders. Played an instrumental role in building the organization from the ground up, leveraging my entrepreneurial spirit and collaborative approach to achieve impactful outcomes."
+    />
+    <TimeLineElement
+      title="INDEPENDANT SOFTWARE DEVELOPER"
+      subtitle="June 2010 to January 2012 - Allentown, PA"
+      desc="As an independent software developer, I designed, developed, and deployed two successful software applications, leveraging my expertise in various programming languages and frameworks. Developed a Guitar Tuner Android app for Martin Guitar, which has been downloaded by over 500,000 users worldwide. Designed the app's user interface and implemented its core functionality using Java and Android SDKs. Ensured high-quality and reliable performance by rigorously testing the app and incorporating user feedback. Developed a document management system for New Jersey-based pharmaceutical companies, utilizing ASP.NET, SQL Server, and SharePoint technologies. Collaborated with stakeholders to identify business requirements and design a user-friendly system that streamlines document management and enhances workflow efficiency."
+    />
+    <TimeLineElement
+      title="DIRECTOR OF WEB SERVICES at Hotwire Communications"
+      subtitle="May 2007 to June 2010 - Philadelphia, PA"
+      desc="As a director of web services for a telecommunications company, I successfully led the development of two innovative software solutions that delivered measurable benefits to the company's customers. Architected a self-service account management system that decreased customer support requests by 30%. Designed interfaces for all-in-one media displays for hospitals, providing patients with an immersive multimedia experience. These projects showcased my ability to design and develop scalable, high-performance software solutions that solve complex business challenges, and to lead cross-functional teams to deliver impactful results."
+    />
+  </div>
+
+
+  <!--
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.efset.org/cert/DxtNKG" target="_blank"> EF SET English Certificate 74/100 (C2 Proficient)</a>
+    </li>
+    <li>
+      <a href="https://certiprof.com/pages/scrum-foundation-professional-certificate-sfpc-en-sp" target="_blank"> Scrum Foundation Professional Certificate (SFPC)</a>
+    </li>
+  </ul>
+  -->
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Current Skills and Platforms</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>TypeScript</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>C++</li>
+    <li>Kotlin</li>
+    <li>SQL</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>NoSQL</li>
+    <li>React</li>
+    <li>Astro</li>
+    <li>Google Cloud</li>
+    <li>Firebase</li>
+    <li>AWS</li>
+    <li>Docker</li>
+    <li>Git</li>
+    <li>Node.js</li>
+    <li>Responsive Web Design</li>
+    <li>UI/UX Design</li>
+    <li>Godot</li>
+    <li>Android Studio</li>
+  </ul>
+</BaseLayout>
